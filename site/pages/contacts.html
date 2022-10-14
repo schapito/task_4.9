@@ -3,11 +3,20 @@
 <head>
     <meta charset="utf-8">
     <title>Контакты - Моя первая веб-страница</title>
+    <style>
+        .letter { 
+         color: red; /* Красный цвет символов */ 
+         font-size: 100%; /* Размер шрифта в процентах */ 
+         font-family: serif; /* Шрифт с засечками */ 
+         position: relative; /* Относительное позиционирование */ 
+         top: 0px; /* Сдвиг сверху */ 
+        }
+      </style>
 </head>
 <body>
     <header>
         <a href="/index.html">Главная</a>
-        <a href="/task_4.9/site/pages/about.html">О нас</a>
+        <a href="../pages/about.html">О нас</a>
         <a href="#">Контакты</a>
     </header>
     <main>
@@ -18,8 +27,17 @@
             777-77-77<br>
         </address>        
     </main>
+    <hr>
     <footer>
-            <!--<span>&copy;&nbsp;Skillfactory</span>-->
-    </footer>
+        <h3>Связаться со мной!</h3>
+        <a href="https://instagram.com/Schapito" target="_blank"><!--"ссылка, открывается в новом окне"-->
+            <img src="../images/Instagram_logo.png" alt="Instagram" width="30" height="30"><!--"ссылка на картинку, альтернативный текст, ширина картинки 30, высота картинки 30"-->
+        </a>
+        <a href="https://www.facebook.com/schapito" target="_blank"><img src="../images/Facebook.png" alt="Facebook" width="30" height="30">
+        </a>
+        <a href="https://t.me/schapito" target="_blank"><img src="../images/Telegram_logo.svg.png" alt="Telegram" width="30" height="30">
+        </a>
+        <p align="left"><span class="letter"> &copy;&nbsp;</span>Schapito</p>
+</footer><!--"подвал"-->
 </body>
 </html>
